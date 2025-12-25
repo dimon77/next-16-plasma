@@ -1,7 +1,7 @@
 "use client";
 
 import { Checkbox } from "@salutejs/plasma-ui/components/Checkbox";
-// import { Slider } from "@salutejs/plasma-ui/components/Slider";
+import { Slider } from "@salutejs/plasma-ui/components/Slider";
 
 export default function TestFont() {
   const weights = [
@@ -30,13 +30,13 @@ export default function TestFont() {
       ))}
       <div>
         <Checkbox label="Чекбокс" description="Описание"  />
-        {/* <Slider
+        <Slider
           onChangeCommitted={() => {}}
           min={0}
           max={100}
           value={30}
           disabled={false}
-        /> */}
+        />
       </div>
     </div>
   );
